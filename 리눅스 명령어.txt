@@ -1,0 +1,19 @@
+리눅스 명령어
+
+-톰캣 재시작
+  # sudo service tomcat restart
+
+-디렉토리 검색
+  # find / -name '폴더명' -type d
+    -> find /-name 'web' -type d
+
+-파일 이동
+# mv [옵션] [원본파일] [대상파일]
+          -f : 이름이 겹칠경우 강제로 이동
+          -i : 이름이 겹치면 물어본다
+
+
+** 우분투 톰캣 라이브러리 추가 경로:
+ /usr/share/tomcat8/lib
+
+
